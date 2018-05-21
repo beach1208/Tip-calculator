@@ -1,0 +1,51 @@
+body{
+	font-size: 1.2en;
+	width: 80%;
+	margin: 0 auto;
+	letter-spacing: 0.5px;
+	background: url(background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	background: #fff;
+	padding: 1.5em;
+	border-radius: 20px;
+	opacity: 0.9;
+	margin-top: 40px;
+	/*width: 50%;
+	margin: 0 auto;*/
+}
+
+div {
+	line-height: 2.5em;
+}
+
+input[type=text]{
+	font-size: 1.1em;
+	text-align: center;
+}
+
+label,input {
+	width: 100%;
+}
+
+@media(min-width: 700px) {
+	body {
+		width: 60%;
+		
+	}
+
+	label,input {
+		display: inline-block;
+		max-width: 40%;
+	}
+
+	div {
+		line-height: 4em;
+	}
+}
